@@ -36,7 +36,6 @@ if __name__ == "__main__":
                     for line in inf :
                         line = line.replace('%s' % chgfrom, '%s' % chgto)
                         outf.write(line)
-                        print(line)
                 except Exception:
                     pass
 
